@@ -55,7 +55,7 @@ function App() {
             </a>
           </div>
           <a className="nav-cta" href="#baixar">
-            Baixe o app <ArrowUpRight />
+            Começar agora <ArrowUpRight />
           </a>
           <button
             className="menu-toggle"
@@ -70,23 +70,24 @@ function App() {
         <div className="hero-content container">
           <div className="hero-copy">
             <div className="eyebrow">
-              <span className="eyebrow-dot" /> delivery feito do seu jeito
+              <span className="eyebrow-dot" /> delivery social, feito para o bairro
             </div>
             <h1>
-              Comida boa,
+              Mais valor
               <br />
-              <em>perto de você.</em>
+              <em>em cada pedido.</em>
             </h1>
             <p className="hero-description">
-              Descubra lugares incríveis, peça o que ama e acompanhe tudo de um
-              jeito simples, rápido e sem complicação.
+              Um marketplace que conecta quem pede, quem cozinha e quem entrega.
+              Sem lucro infinito: cobramos uma taxa fixa por transação para
+              fazer o ecossistema girar.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#baixar">
-                Quero pedir <ArrowUpRight />
+                Criar minha conta <ArrowUpRight />
               </a>
-              <a className="text-link" href="#como-funciona">
-                Entenda como funciona <span>↓</span>
+              <a className="text-link" href="#restaurantes">
+                Sou restaurante <span>↓</span>
               </a>
             </div>
             <div className="trust-row">
@@ -97,7 +98,7 @@ function App() {
                 <span>+</span>
               </div>
               <p>
-                <strong>5 mil+</strong> pessoas já pediram hoje
+                <strong>Uma rede mais justa</strong> para todos os pedidos
               </p>
             </div>
           </div>
@@ -191,21 +192,21 @@ function App() {
       </section>
 
       <section className="intro section container" id="sobre">
-        <div className="section-kicker">o seu novo jeito de pedir</div>
+        <div className="section-kicker">um marketplace com propósito</div>
         <div className="intro-grid">
           <h2>
-            Seu bairro
+            O pedido
             <br />
-            <span>cabe no bolso.</span>
+            <span>movimenta tudo.</span>
           </h2>
           <div>
             <p>
-              O comida.app conecta você com os sabores que fazem parte da sua
-              vida — dos clássicos da esquina às descobertas que você ainda nem
-              conhece.
+              No comida.app, cada transação cria valor para o restaurante, para
+              o motoboy e para você. A gente cresce junto com o comércio local,
+              com transparência e uma taxa fixa — não com margens sem limite.
             </p>
             <a className="text-link dark" href="#como-funciona">
-              Conheça a nossa história <ArrowUpRight />
+              Veja como funciona <ArrowUpRight />
             </a>
           </div>
         </div>
@@ -215,63 +216,65 @@ function App() {
         <div className="container">
           <div className="features-heading">
             <div>
-              <div className="section-kicker">por que comida.app?</div>
+              <div className="section-kicker">feito para dois lados da mesa</div>
               <h2>
-                Feito para
+                Escolha seu
                 <br />
-                <em>facilitar.</em>
+                <em>próximo passo.</em>
               </h2>
             </div>
             <p>
-              Do primeiro clique até a última mordida, tudo foi pensado para ser
-              leve, humano e gostoso.
+              Uma experiência simples para pedir hoje e uma vitrine justa para
+              vender todos os dias.
             </p>
           </div>
           <div className="feature-grid">
             <article className="feature-card feature-red">
-              <div className="feature-icon">⌕</div>
+              <div className="feature-icon">♥</div>
               <span>01</span>
               <h3>
-                Encontre
+                Para quem
                 <br />
-                seu favorito
+                pede
               </h3>
               <p>
-                Os melhores sabores da sua região, sem perder tempo procurando.
+                Crie sua conta, descubra restaurantes locais e faça seu pedido
+                com acompanhamento de verdade.
               </p>
               <a href="#baixar">
-                Explorar <ArrowUpRight />
+                Quero pedir <ArrowUpRight />
               </a>
             </article>
             <article className="feature-card feature-yellow">
-              <div className="feature-icon">⌁</div>
+              <div className="feature-icon">✦</div>
               <span>02</span>
               <h3>
-                Acompanhe
+                Para quem
                 <br />
-                de verdade
+                vende
               </h3>
               <p>
-                Veja cada etapa do pedido e saiba exatamente quando ele chega.
+                Entre para a rede de restaurantes, alcance novos clientes e
+                venda sem perder sua identidade.
               </p>
-              <a href="#baixar">
-                Pedir agora <ArrowUpRight />
+              <a href="#restaurantes">
+                Quero vender <ArrowUpRight />
               </a>
             </article>
             <article className="feature-card feature-green">
-              <div className="feature-icon">♥</div>
+              <div className="feature-icon">↗</div>
               <span>03</span>
               <h3>
-                Peça.
+                Para todo
                 <br />
-                Repita.
+                o ecossistema
               </h3>
               <p>
-                Seus favoritos sempre à mão para matar a fome sem pensar duas
-                vezes.
+                Uma taxa fixa por transação mantém o modelo transparente e
+                distribui valor entre quem faz o delivery acontecer.
               </p>
-              <a href="#baixar">
-                Ver favoritos <ArrowUpRight />
+              <a href="#sobre">
+                Conhecer o modelo <ArrowUpRight />
               </a>
             </article>
           </div>
@@ -285,15 +288,16 @@ function App() {
         <div>
           <div className="section-kicker">você tem um restaurante?</div>
           <h2>
-            Seu sabor
+            Coloque seu sabor
             <br />
-            <em>merece espaço.</em>
+            <em>na nossa rede.</em>
           </h2>
           <p>
-            Chegue a quem está procurando exatamente o que você faz de melhor.
+            Junte-se ao pool de restaurantes do comida.app. Alcance novos
+            clientes, receba pedidos e cresça com uma taxa fixa, sem surpresas.
           </p>
           <a className="button button-dark" href="#baixar">
-            Quero vender no comida.app <ArrowUpRight />
+            Quero entrar para a rede <ArrowUpRight />
           </a>
         </div>
         <div className="recipe-stamp">
@@ -317,15 +321,15 @@ function App() {
               comida<span>.app</span>
             </a>
             <h2>
-              A fome não
+              Seu próximo pedido
               <br />
-              <em>espera.</em>
+              <em>começa aqui.</em>
             </h2>
           </div>
           <div className="footer-action">
-            <p>Baixe agora e descubra seu próximo pedido.</p>
+            <p>Crie sua conta e peça. Ou cadastre seu restaurante e venda.</p>
             <a className="button button-primary" href="#inicio">
-              Baixar o app <ArrowUpRight />
+              Começar agora <ArrowUpRight />
             </a>
           </div>
         </div>
